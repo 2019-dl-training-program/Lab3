@@ -33,6 +33,7 @@ $ git clone https://github.com/2019-dl-training-program/Lab3
 #### 2. Download the dataset
 
 ```bash
+$ cd Lab3
 $ pip install -r requirements.txt
 $ chmod +x download.sh
 $ ./download.sh
