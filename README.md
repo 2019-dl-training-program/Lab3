@@ -27,7 +27,7 @@ $ make
 $ python setup.py build
 $ python setup.py install
 $ cd ../../
-$ git clone https://github.com/2018-summer-DL-training-program/Lab-2-Image-Captioning
+$ git clone https://github.com/2019-dl-training-program/Lab3
 ```
 
 #### 2. Download the dataset
