@@ -42,8 +42,8 @@ class DecoderRNN(nn.Module):
 		packed = pack_padded_sequence(embeddings, lengths, batch_first=True)
 		hiddens, _ = self.lstm(packed)
 		# uncomment this line to use the default setting
-		#outputs = self.linear(hiddens[0])
-		outputs = self.linear(hiddens)
+		outputs = self.linear(hiddens[0])
+		#outputs = self.linear(hiddens)
 		return outputs
 	
 	def sample(self, features, states=None):
